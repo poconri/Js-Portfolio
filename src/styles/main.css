@@ -306,7 +306,7 @@ body {
 }
 
 .card_social {
-	width: 400px;
+	width: 60%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -316,6 +316,7 @@ body {
 .card_social img {
 	width: 32px;
 	height: 32px;
+	flex-shrink: 3;
 }
 
 .card_social a {
